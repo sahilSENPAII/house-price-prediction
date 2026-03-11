@@ -19,4 +19,5 @@ frontend/node_modules/
 frontend/build/
 
 # Model files
-backend/model/*.pkl
+
+
