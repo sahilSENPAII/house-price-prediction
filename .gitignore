@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# Large files - don't push to GitHub
+data/
+*.csv
+
+# Node
+frontend/node_modules/
+frontend/build/
+
+# Model files
+backend/model/*.pkl
