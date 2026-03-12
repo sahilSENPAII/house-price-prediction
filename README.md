@@ -1,17 +1,22 @@
 # 🏠 House Price Predictor — Gurugram, India
 
-A full-stack machine learning web application that predicts residential property prices in Gurugram, Haryana using real estate data and a Random Forest regression model.
-
+A full-stack machine learning web application that predicts residential property prices using structural and location based housing features with a Random Forest regression model.
 🔗 **Live Demo:** [house-price-prediction-one-pi.vercel.app](https://house-price-prediction-one-pi.vercel.app)
 
 ---
+##  System Architecture
 
-## 📸 Preview
-
-> Dark glassmorphism UI with real-time ML predictions for 39+ Gurugram locations.
+User  
+↓  
+React Frontend (Vercel)  
+↓  
+FastAPI REST API (Render)  
+↓  
+Random Forest Model (scikit-learn)  
+↓  
+Prediction Response
 
 ---
-
 ## 🧠 Tech Stack
 
 | Layer | Technology |
@@ -26,19 +31,19 @@ A full-stack machine learning web application that predicts residential property
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🤖 **Random Forest ML Model** trained on 14,620 real estate transactions
-- 📍 **39+ Gurugram locations** with auto-filled postal code, coordinates & airport distance
-- 💰 **Smart price display** — auto switches between Lakhs and Crores
-- 🎨 **Dark glassmorphism UI** with smooth animations
-- ⚡ **Real-time predictions** via REST API
-- 🐳 **Fully containerized** with Docker
-- 🌐 **Deployed and publicly accessible**
+-  **Random Forest ML Model** trained on 14,620 housing records
+-  **39+ Gurugram locations** with auto-filled postal code, coordinates & airport distance
+-  **Smart price display** — auto switches between Lakhs and Crores
+-  **Dark glassmorphism UI** with smooth animations
+-  **Real-time predictions** via REST API
+-  **Fully containerized** with Docker
+-  **Deployed and publicly accessible**
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 | Model | RMSE | R² Score |
 |---|---|---|
@@ -52,7 +57,7 @@ A full-stack machine learning web application that predicts residential property
 
 ---
 
-## 🔧 Feature Engineering
+##  Feature Engineering
 
 New features created from existing data to improve model accuracy:
 
@@ -67,7 +72,7 @@ New features created from existing data to improve model accuracy:
 
 ---
 
-## 🚀 Run Locally
+##  Run Locally
 
 ### Prerequisites
 - Python 3.11+
@@ -129,7 +134,7 @@ house-price-prediction/
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -166,7 +171,7 @@ POST /predict
 
 ---
 
-## 📓 EDA Highlights
+##  EDA Highlights
 
 - Price distribution analysis with log transformation
 - Feature correlation heatmap
@@ -176,13 +181,11 @@ POST /predict
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Sahil Ray**
 - GitHub: [@sahilSENPAII](https://github.com/sahilSENPAII)
 
 ---
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
